@@ -1,37 +1,33 @@
 # Changelog
-
 All notable changes to this project will be documented in this file.
 
-## [0.18.0](https://github.com/ngeor/kamino/compare/plugins/yak4j-sync-archetype-maven-plugin/v0.17.2...plugins/yak4j-sync-archetype-maven-plugin/v0.18.0) - 2024-02-28
+## [0.18.2] - 2025-11-15
+
+### Miscellaneous Tasks
+
+- Publish to Central Maven
+
+## [0.18.1] - 2025-02-06
 
 ### Features
 
-* Added parent pom for public libraries
-
-### Fixes
-
-* Upgrading libraries to Java 17
+- Use tag based release workflow
 
 ### Miscellaneous Tasks
 
-* Delete old .github and scripts folders
-* Keeping only root .editorconfig, deleting the rest
-* Keeping only root .gitignore, deleting the rest
-* Upgrade to latest parent pom
-* Upgraded to latest parent pom
-* Use `com.github.ngeor:java` as the parent pom everywhere
-* Switch to snapshot version of parent pom
-
-### Dependencies
-
-* Upgraded parent pom
-
-## [0.17.2] - 2024-01-28
-
-### Miscellaneous Tasks
-
-* Add 'plugins/yak4j-sync-archetype-maven-plugin/' from commit '188b833a888f498582de94eee9cead27d5db4d27'
-* Adjusted imported code
+- Updated copyright year in LICENSE
+- Updating parent from 2.1.0 to 2.4.0
+- Updating parent from 2.4.0 to 3.1.1
+- Update dependency org.apache.maven.plugins:maven-invoker-plugin to v3.2.2
+- Update maven-plugin-plugin.version to v3.6.4
+- Update maven-core.version to v3.8.5
+- Update dependency org.apache.maven.plugins:maven-invoker-plugin to v3.3.0
+- Update maven-core.version to v3.8.6
+- Fix import order
+- Update dependency com.github.ngeor:java to v3.2.0
+- Update dependency com.github.ngeor:java to v3.3.0
+- Upgrade dependencies
+- Moved project back to its own repo
 
 ## [0.17.1] - 2022-01-27
 
